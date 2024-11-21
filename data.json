@@ -1,0 +1,23 @@
+{
+    "C++": [
+        {"q": "What is the primary purpose of a destructor in C++?", "o": ["Free resources", "Initialize objects", "Overload operators", "Perform polymorphism"], "a": "Free resources"},
+        {"q": "Which of the following operators cannot be overloaded in C++?", "o": ["+", "new", "::", "[]"], "a": "::"},
+        {"q": "What is a friend function in C++?", "o": ["A function defined inside a class", "A function that can access private members of a class", "A global function", "A member function of another class"], "a": "A function that can access private members of a class"},
+        {"q": "Which type of inheritance allows a class to inherit from multiple classes?", "o": ["Single", "Multiple", "Hierarchical", "Multilevel"], "a": "Multiple"},
+        {"q": "Which keyword is used to handle exceptions in C++?", "o": ["try-catch", "catch-throw", "try-throw", "try-except"], "a": "try-catch"}
+    ],
+    "Python": [
+        {"q": "What does the 'is' operator check in Python?", "o": ["Equality of values", "Identity of objects", "Membership in a sequence", "Type of a variable"], "a": "Identity of objects"},
+        {"q": "Which of these can be used as a key in a Python dictionary?", "o": ["List", "Tuple", "Set", "Dictionary"], "a": "Tuple"},
+        {"q": "What will be the output of 'print(bool(0))'?", "o": ["True", "False", "0", "Error"], "a": "False"},
+        {"q": "Which method is used to add an element to a set in Python?", "o": ["append()", "insert()", "add()", "update()"], "a": "add()"},
+        {"q": "What does the enumerate() function return?", "o": ["Index and value", "Only index", "Only value", "None"], "a": "Index and value"}
+    ],
+    "DSA": [
+        {"q": "Which searching algorithm works efficiently on sorted arrays?", "o": ["Linear Search", "Binary Search", "Hashing", "Breadth-First Search"], "a": "Binary Search"},
+        {"q": "What is the space complexity of a breadth-first search in terms of nodes?", "o": ["O(h)", "O(n)", "O(b^h)", "O(log n)"], "a": "O(b^h)"},
+        {"q": "Which traversal order is used in Depth-First Search?", "o": ["Level-order", "Post-order", "In-order", "Pre-order"], "a": "Pre-order"},
+        {"q": "What is the best case time complexity of Merge Sort?", "o": ["O(1)", "O(n)", "O(n log n)", "O(n^2)"], "a": "O(n log n)"},
+        {"q": "What does a hash function do?", "o": ["Sort data", "Map keys to array indices", "Traverse data", "Partition data"], "a": "Map keys to array indices"}
+    ]
+}
